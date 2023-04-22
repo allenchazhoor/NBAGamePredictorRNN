@@ -291,8 +291,11 @@ For our model, testing accuracy and testing loss are very simple and straightfor
 ![image3](https://user-images.githubusercontent.com/74215622/233810273-74217be3-7647-48d7-8ab9-c149aed5f280.png)
 
 Final Training Accuracy: 74.64162135442413 in Epoch: 200
+
 Final Validation Accuracy: 72.66435986159169 in Epoch: 200
+
 Best Training Accuracy: 75.31718569780853 in Epoch: 188 
+
 Best Validation Accuracy: 73.35640138408304 in Epoch: 150
 
 We took our best validation weights from Epoch 150 and used it to model on the test set, and came out with:
