@@ -295,7 +295,7 @@ Final Validation Accuracy: 72.66435986159169 in Epoch: 200
 Best Training Accuracy: 75.31718569780853 in Epoch: 188  
 Best Validation Accuracy: 73.35640138408304 in Epoch: 150  
 
-We took our best validation weights from Epoch 150 and used it to model on the test set, and came out with:
+We took our best validation weights from Epoch 150 and used it to model on the test set, and came out with:  
 Final Test Accuracy: 74.0484429065744  
 Final Test Loss: 0.008039019305813272  
 
