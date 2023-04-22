@@ -15,11 +15,17 @@ You can download and use our x.pkl and y.pkl files to save time, or alternativel
 The deep learning model we built for this project was a recurrent neural network (RNN) to predict the winner of NBA games given a sequence of the involved teams’ recent games histories, as well as general performance context. More specifically, it uses Long Short-Term Memory RNN within it. These types of RNNs are useful for handling long-term dependencies in sequential data. Using memory cells and gating, their recurrent connections select which inputs to remember or forget. This is what gives LSTM RNNs the ability to handle long-term dependencies better than a standard RNN.
 
 The task given to the LSTM RNN we built is to predict the outcome of NBA games. This specific deep learning model is suitable for this task because the input data spans many years of data collection, with thousands of individual games. The input given to the model is a vector containing:
+
 (1) a sequence of game data of the home team’s last 10 games 
+
 (2) a sequence of game data of the away team’s last 10 games
+
 (3) a sequence of game data of the two team’s last 3 matchups
+
 (4) the home team’s seasonal performance records (total win %, home win %, away win %)
+
 (5) the away team’s seasonal performance records (total win %, home win %, away win %)
+
 The data comes from spreadsheets and is converted into a sequence represented as vectors.The model analyzes the data and outputs a prediction of which of the two teams will win in an immediate matchup between the teams. With the model’s ability to use long-term memory, it can use many hundreds or thousands of data entries to formulate a prediction. The task of predicting an NBA game is a binary classification, and the output is either 1, indicating the home team wins, or 0, indicating the away team wins.
 
 ## Model Figure
