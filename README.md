@@ -1,4 +1,4 @@
-# RNNBA: NBA Game Predicting Recurrent Neural Network
+# NetProphet: NBA Game Predicting Recurrent Neural Network
 
 ### IMPORTANT NOTES FOR MARKERS TO RUN THE FILES:
 
