@@ -1,4 +1,4 @@
-# NBA Game Predictor
+# RNNBA: NBA Game Predicting Recurrent Neural Network
 
 ### IMPORTANT NOTES FOR MARKERS TO RUN THE FILES:
 
